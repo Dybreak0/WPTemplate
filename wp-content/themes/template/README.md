@@ -57,8 +57,6 @@ In the terminal go to the root folder of your laragon  "src/laragon/www" and bas
 ```sh
  git clone https://github.com/Dybreak0/WPTemplate.git
 ```
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-
 _It'll take a couple of minutes to install._
 
 ### → `STEP #3` — WordPress Installation

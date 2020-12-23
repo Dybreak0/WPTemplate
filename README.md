@@ -1,11 +1,6 @@
-#Get Started
-
-preload
-https://wp-rocket.me/blog/font-preloading-best-practices/
-
-
 # Get Started
 
+[![GitHub](https://img.shields.io/wordpress/v/akismet.svg?colorA=D14543&colorB=21759B&maxAge=2592000&style=flat&label=WordPress)](https://github.com/ahmadawais/WPGulp/)
 ![Version](https://img.shields.io/badge/version-v1.0.0-blue.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#) ![Maintainer](https://img.shields.io/badge/Maintainer-Jeremy%20James%20Sangutan-green.svg)
 
 This is a WordPress Theme Template with Gulp. Clone `master` and start your project.

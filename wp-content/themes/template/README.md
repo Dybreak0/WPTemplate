@@ -8,9 +8,9 @@ This is a WordPress Theme Template with Gulp. Clone `master` and start your proj
 ##### Table of Contents
 
 - [:pushpin: Prerequisites](#Prerequisites)
-- [:rocket: Installing Nanashoku](#Installing)
-- [:computer: Usage of Nanashoku](#Usage)
-- [:memo: Contributing to Nanashoku](#Contributing)
+- [:rocket: Installation](#Installation)
+- [:computer: Usage](#Usage)
+- [:memo: Contribution](#Contribution)
 - [:paperclip: Additional Info](#Additional)
 
   - [Breakpoints](#Breakpoints)
@@ -19,7 +19,6 @@ This is a WordPress Theme Template with Gulp. Clone `master` and start your proj
   - [BEM brief explanation in SCSS](#BEM)
 
 - [:mailbox: Credits](#Credits)
-  - [Division of Task](#Division)
 - [:two_hearts: Acknowledgements and References](#Acknowledgements)
 - [:handshake: Contribute](#Contribute)
 
@@ -30,8 +29,8 @@ Before you begin, ensure you have met the following requirements:
 - You have a `Windows 10` machine.
 - Server `xampp` or `laragon`
   > Preferably [**Laragon**](https://laragon.org/download)
-- Node installed  
-  > Install node.js here [**Node**](https://nodejs.org/en/)
+- Node installed 
+  > Install node.js latest here [**Node**](https://nodejs.org/en/)
 ## <a name='Installing'></a> :rocket: Installing WordPress Template
 
 <details>
@@ -50,6 +49,24 @@ npm -v
 ```
 
 </details>
+
+## <a name='Installing'></a> :rocket: Installing Static Template
+
+To install WordPress template in your local machine, go to www folder in laragon and bash the code below:
+
+**Windows**:
+
+```sh
+ git clone https://github.com/Dybreak0/WPTemplate.git
+```
+
+## <a name='Usage'></a>:computer: Usage of WordPress template
+
+To begin the development, follow this steps listed below:
+
+1. go to **`src/`** folder
+2. run **`npm install`**
+3. after the dependencies installed, run **`gulp build && gulp sync`**
 
 
 
@@ -128,14 +145,14 @@ npm -v
   ```
 ## <a name='Acknowledgements'></a>:two_hearts: Acknowledgements and References
 
-- Rightcore project is from static website converted Wordpress with the help of Greg.
+- WPTemplate project is from static template modified to be used in WordPress local.
 
 ## <a name='Contribute'></a> :handshake: Contribute
 
 Contributions, issues and feature requests are welcome!
 
-- Issue Tracker: https://github.com/WPTemplate/Rightcore/issues
-- Source Code: https://github.com/WPTemplate/Rightcore
+- Issue Tracker: https://github.com/WPTemplate/issues
+- Source Code: https://github.com/WPTemplate
 
 ---
 

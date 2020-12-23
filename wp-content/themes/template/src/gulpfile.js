@@ -50,7 +50,7 @@ const browserSync = require('browser-sync').create();
 const SRC_ROOT_PATH = "./";
 const SRC_JS_PATH = path.resolve(SRC_ROOT_PATH, 'js/**/*.js');
 const SRC_SCSS_PATH = path.resolve(SRC_ROOT_PATH, 'scss/**/*.scss');
-const SRC_IMG_PATH = path.resolve(SRC_ROOT_PATH, "image/**/*");
+const SRC_IMG_PATH = path.resolve(SRC_ROOT_PATH, "img/**/*");
 // DESTINATION PATH
 const DEST_ROOT_PATH = "../public";
 const DEST_SCSS_PATH = path.resolve(DEST_ROOT_PATH, 'minified');

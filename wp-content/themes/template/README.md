@@ -30,64 +30,30 @@ Before you begin, ensure you have met the following requirements:
 - You have a `Windows 10` machine.
 - Server `xampp` or `laragon`
   > Preferably [**Laragon**](https://laragon.org/download)
-  - Tested wordpress version v5.6`
-  > [**WordPress**](https://wordpress.org/)
-  
-| Tool | Version | Description                                                                           |
-| ---- | ------- | ------------------------------------------------------------------------------------- |
-| NVM  | > 1.1   | Node version manager for fast switching node version                                  |
-| Node | >= 8.15 | Install Node via [NVM](https://github.com/coreybutler/nvm-windows/releases/tag/1.1.7) |
-| WordPress | >=5.6  | Install wordpress via [NVM](https://github.com/coreybutler/nvm-windows/releases/tag/1.1.7) |
+- Node installed  
+  > Install node.js here [**Node**](https://nodejs.org/en/)
+## <a name='Installing'></a> :rocket: Installing WPTemplate
 
-## <a name='Installing'></a> :rocket: Installing Rightcore
+<details>
+ <summary><strong><code>STEP #0</code></strong> — Don't have <code>Node.js</code> + <code>npm</code> installed? Read this. (CLICK TO EXPAND!)</summary>
 
-To install Rightcore in your local machine, run this following script in your terminal:
+In case you are an absolute beginner to the world of `Node.js`, JavaScript, and `npm` packages — all you need to do is go to the Node's site [download + install](https://nodejs.org/en/download/) Node on your system. This will install both `Node.js` and `npm`, i.e., node package manager — the command line interface of Node.js.
 
-**Windows**:
+You can verify the install by opening your terminal app and typing...
 
 ```sh
-git clone -b <your_branch> https://github.com/Dybreak0/Rightcore
+node -v
+# Results into v9.11.2 — make sure you have Node >= 8 installed.
+
+npm -v
+# Results into 6.2.0 — make sure you have npm >= 5.3 installed.
 ```
 
-## <a name='Usage'></a>:computer: Usage of Rightcore
+</details>
 
-You can start away the development.
-**No data for this**
 
-## <a name='Contributing'></a> :memo: Contributing to RightCore
 
-Before cloning, create a [new branch](https://github.com/HiPE-Inc-ltd/jeen_gross) for your local development.
 
-To contribute to RightCore, follow these steps:
-
-1. Fork this repository.
-2. Create a branch: `git checkout -b <branch_name>`.
-3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin <project_name>/<location>`
-5. Create the pull request.
-
-Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-
-## <a name='Additional'></a> :paperclip: Additional Info
-
-Additional information about Rightcore.
-
-- There is no Tablet version, so we are the one responsible for the tablet design.
-- We follow the practices of FLOCSS architecture for uniformity. Reference for [FLOCSS](https://github.com/hiloki/flocss/blob/master/README_eng.md) and [BEM CSS](https://css-tricks.com/bem-101/)
-- All resources about the project can be found in this link [57 タイヤワークス Resources](https://docs.google.com/spreadsheets/d/1LAiRV2n-3A-NIOORnLkw_B0PFHWeqXLgSeQp3prdg6g/edit#gid=1256589856)
-- There is **no coding rule**, client says FLOCSS is okay.
-
-- ### <a name='Breakpoints'></a> Breakpoints
-  | Platform | Breakpoint(s)      |
-  | -------- | ------------------ |
-  | PC       | 1025px (1025px up) |
-  | Tablet   | 751px to 1024px    |
-  | Mobile   | 750px (750px down) |
-- ### <a name='Maxwidth'></a> Max-width
-  | Platform | max-width |
-  | -------- | --------- |
-  | Tablet   | 1024px    |
-  | Mobile   | 750px     |
 - ### <a name='FLOCSS'></a> Summary for FLOCSS
 
   Link for [FLOCSS Summarry](https://titanwolf.org/Network/Articles/Article?AID=8651e5ed-bb84-446d-82a9-3d811109c133#gsc.tab=0)
@@ -160,21 +126,6 @@ Additional information about Rightcore.
     }
   }
   ```
-
-## <a name='Credits'></a> :mailbox: Credits
-
-### <a name='Division'></a> Division of task
-
-| Team Members | Task                                                                                                            |
-| ------------ | --------------------------------------------------------------------------------------------------------------- |
-| Jeremy👨‍💻📖   | <ul><li>Top page</li><li>About page</li></ul>                                                                   |
-| Edwin 👨‍💻     | <ul><li>News page</li><li>News Details page</li></ul>                                                           |
-| Mark Ivan 👨‍💻 | <ul><li>Storage page</li></ul>                                                                                  |
-| Bruce 👨‍💻     | <ul><li>Company Page (After completing, assist Mark Ivan on contact page)</li><li>Privacy Policy Page</li></ul> |
-| Dave 👨‍💻      | <ul><li>Service (After completing, assist Edwin page)</li></ul>                                                 |
-| Greg 👨‍💻      | <ul><li>Converting Static to Wordpress</li></ul>                                                                |
-| EJ Anton 📖  | <ul><li>Improving Document</li></ul>                                                                            |
-
 ## <a name='Acknowledgements'></a>:two_hearts: Acknowledgements and References
 
 - Rightcore project is from static website converted Wordpress with the help of Greg.
@@ -183,8 +134,8 @@ Additional information about Rightcore.
 
 Contributions, issues and feature requests are welcome!
 
-- Issue Tracker: https://github.com/Dybreak0/Rightcore/issues
-- Source Code: https://github.com/Dybreak0/Rightcore
+- Issue Tracker: https://github.com/WPTemplate/Rightcore/issues
+- Source Code: https://github.com/WPTemplate/Rightcore
 
 ---
 

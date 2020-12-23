@@ -50,15 +50,25 @@ npm -v
 
 </details>
 
-## <a name='Installing'></a> :rocket: Installing Static Template
+## <a name='Installing'></a> :rocket: Installing WordPress Template
 
-To install WordPress template in your local machine, go to www folder in laragon and bash the code below:
+To install WordPress template in your local machine, follow the steps below.
+
+1. Go to www folder in laragon and bash the code below:
 
 **Windows**:
 
 ```sh
  git clone https://github.com/Dybreak0/WPTemplate.git
 ```
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
+2. Open Laragon and Run the server.
+3. Create a database for wordpress installation.
+
+3. Go to url and write "WPTemplate.test"
+
+3. Wordpress installation will pop-up, follow the steps.
 
 ## <a name='Usage'></a>:computer: Usage of WordPress template
 
@@ -66,9 +76,37 @@ To begin the development, follow this steps listed below:
 
 1. go to **`src/`** folder
 2. run **`npm install`**
-3. after the dependencies installed, run **`gulp build && gulp sync`**
+3. after the dependencies installed, run **`gulp build && gulp watch`**
+##### Code Block:
 
+```sh
+cd src
+npm install
+gulp build
+gulp watch
+```
+When you run this scripts it will generate a bundled file to `public/` folder.
 
+:warning: You must only edit in `src/` folder to avoid confusion.
+
+## <a name='Additional'></a> :paperclip: Additional Info
+
+Additional information about Static template
+
+- `src/` is the main source code
+- `public/` is the release folder of compressed file from `src/`.
+  - `public/minified/**/css` this refers to minified version of CSS
+  - `public/tinified/**/img` this refers the tinified/compressed image
+  - `public/uglified/` this refers a compressed javascript
+- ### <a name='Errors'></a>Errors
+
+  If you encounter this problem `bash gulp command not found` consider this running this script in cmd
+
+  ```sh
+  npm install --global gulp-cli
+  ```
+
+  Installing the gulp in global scope.
 
 
 - ### <a name='FLOCSS'></a> Summary for FLOCSS

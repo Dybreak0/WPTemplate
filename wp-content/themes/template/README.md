@@ -32,7 +32,7 @@ Before you begin, ensure you have met the following requirements:
   > Preferably [**Laragon**](https://laragon.org/download)
 - Node installed  
   > Install node.js here [**Node**](https://nodejs.org/en/)
-## <a name='Installing'></a> :rocket: Installing WPTemplate
+## <a name='Installing'></a> :rocket: Installing WordPress Template
 
 <details>
  <summary><strong><code>STEP #0</code></strong> — Don't have <code>Node.js</code> + <code>npm</code> installed? Read this. (CLICK TO EXPAND!)</summary>

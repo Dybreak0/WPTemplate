@@ -87,7 +87,7 @@ gulp watch
 ```
 When you run this scripts it will generate a bundled file to `public/` folder.
 
-:warning: You must only edit in `src/` folder to avoid confusion.
+:warning: You must only edit in `src/` folder to avoid confusion. <br>
 :Put all your assets in "src/img/pc" for PC version, "src/img/sp" for mobile.
 
 ## <a name='Additional'></a> :paperclip: Additional Info

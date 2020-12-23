@@ -60,7 +60,7 @@ const DEST_IMG_PATH = path.resolve(DEST_ROOT_PATH, 'tinified');
 const WATCH_ROOT_PATH = "./";
 const WATCH_JS_PATH = WATCH_ROOT_PATH + 'js/**/**';
 const WATCH_SCSS_PATH = WATCH_ROOT_PATH + 'scss/**/**';
-const WATCH_IMG_PATH = WATCH_ROOT_PATH + 'image/**/**';
+const WATCH_IMG_PATH = WATCH_ROOT_PATH + 'img/**/**';
 
 function clean_files() {
     return src(DEST_ROOT_PATH, {

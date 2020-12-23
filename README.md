@@ -30,11 +30,14 @@ Before you begin, ensure you have met the following requirements:
 - You have a `Windows 10` machine.
 - Server `xampp` or `laragon`
   > Preferably [**Laragon**](https://laragon.org/download)
-- [**WordPress**](https://wordpress.org/)
+  - Tested wordpress version v5.6`
+  > [**WordPress**](https://wordpress.org/)
+  
 | Tool | Version | Description                                                                           |
 | ---- | ------- | ------------------------------------------------------------------------------------- |
 | NVM  | > 1.1   | Node version manager for fast switching node version                                  |
 | Node | >= 8.15 | Install Node via [NVM](https://github.com/coreybutler/nvm-windows/releases/tag/1.1.7) |
+| WordPress | >=5.6  | Install wordpress via [NVM](https://github.com/coreybutler/nvm-windows/releases/tag/1.1.7) |
 
 ## <a name='Installing'></a> :rocket: Installing Rightcore
 

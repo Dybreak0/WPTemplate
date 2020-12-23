@@ -1,11 +1,6 @@
-#Get Started
-
-preload
-https://wp-rocket.me/blog/font-preloading-best-practices/
-
-
 # Get Started
 
+[![GitHub](https://img.shields.io/wordpress/v/akismet.svg?colorA=D14543&colorB=21759B&maxAge=2592000&style=flat&label=WordPress)](https://github.com/ahmadawais/WPGulp/)
 ![Version](https://img.shields.io/badge/version-v1.0.0-blue.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#) ![Maintainer](https://img.shields.io/badge/Maintainer-Jeremy%20James%20Sangutan-green.svg)
 
 This is a WordPress Theme Template with Gulp. Clone `master` and start your project.
@@ -35,11 +30,14 @@ Before you begin, ensure you have met the following requirements:
 - You have a `Windows 10` machine.
 - Server `xampp` or `laragon`
   > Preferably [**Laragon**](https://laragon.org/download)
-- [**WordPress**](https://wordpress.org/)
+  - Tested wordpress version v5.6`
+  > [**WordPress**](https://wordpress.org/)
+  
 | Tool | Version | Description                                                                           |
 | ---- | ------- | ------------------------------------------------------------------------------------- |
 | NVM  | > 1.1   | Node version manager for fast switching node version                                  |
 | Node | >= 8.15 | Install Node via [NVM](https://github.com/coreybutler/nvm-windows/releases/tag/1.1.7) |
+| WordPress | >=5.6  | Install wordpress via [NVM](https://github.com/coreybutler/nvm-windows/releases/tag/1.1.7) |
 
 ## <a name='Installing'></a> :rocket: Installing Rightcore
 

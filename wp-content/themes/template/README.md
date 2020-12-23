@@ -70,7 +70,7 @@ To install WordPress template in your local machine, follow the steps below.
 
 Once the installation is successful, proceed to next step.
 
-### → `STEP #4` — Usage of WordPress template
+### → `STEP #4` — Gulp Set-up
 
 To begin the development, follow this steps listed below:
 
@@ -88,17 +88,23 @@ gulp watch
 When you run this scripts it will generate a bundled file to `public/` folder.
 
 :warning: You must only edit in `src/` folder to avoid confusion. <br>
-:Put all your assets in "src/img/pc" for PC version, "src/img/sp" for mobile.
+:warning: Put all your assets in "src/img/pc" for PC version, "src/img/sp" for mobile.
 
 ## <a name='Additional'></a> :paperclip: Additional Info
 
-Additional information about Static template
+Additional Information
 
 - `src/` is the main source code
 - `public/` is the release folder of compressed file from `src/`.
   - `public/minified/**/css` this refers to minified version of CSS
   - `public/tinified/**/img` this refers the tinified/compressed image
-  - `public/uglified/` this refers a compressed javascript
+  - `public/uglified/` this refers a compressed javascript <br>
+ 
+- All files in FLOCSS 'css/foundation', 'css/layout', 'css/object' are compiled inside style.scss
+- Put your scss files inside 'css/page' for specific pages only.
+  - All files in 'css/page' are compiled inside page.scss
+  
+ 
 - ### <a name='Errors'></a>Errors
 
   If you encounter this problem `bash gulp command not found` consider this running this script in cmd

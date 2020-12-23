@@ -50,27 +50,27 @@ npm -v
 
 </details>
 
-## <a name='Installing'></a> :rocket: Installing WordPress Template
+### → `STEP #1` — Download WPTemplate folder
 
-To install WordPress template in your local machine, follow the steps below.
-
-1. Go to www folder in laragon and bash the code below:
-
+In the terminal go to the root folder of your laragon  "src/laragon/www" and bash the code below:
 **Windows**:
-
 ```sh
  git clone https://github.com/Dybreak0/WPTemplate.git
 ```
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
-2. Open Laragon and Run the server.
-3. Create a database for wordpress installation.
+_It'll take a couple of minutes to install._
 
+### → `STEP #3` — WordPress Installation
+To install WordPress template in your local machine, follow the steps below.
+1. Open Laragon and Run the server.
+2. Create a database for wordpress installation.
 3. Go to url and write "WPTemplate.test"
+4. Wordpress installation will pop-up, follow the steps.
 
-3. Wordpress installation will pop-up, follow the steps.
+Once the installation is successful, proceed to next step.
 
-## <a name='Usage'></a>:computer: Usage of WordPress template
+### → `STEP #4` — Usage of WordPress template
 
 To begin the development, follow this steps listed below:
 
@@ -88,6 +88,7 @@ gulp watch
 When you run this scripts it will generate a bundled file to `public/` folder.
 
 :warning: You must only edit in `src/` folder to avoid confusion.
+:Put all your assets in "src/img/pc" for PC version, "src/img/sp" for mobile.
 
 ## <a name='Additional'></a> :paperclip: Additional Info
 

@@ -1,0 +1,4 @@
+@mixin widthpxvw($px, $viewport) {
+    $vw: ($px / $viewport) * 100;
+    width: #{$vw}vw;
+}
